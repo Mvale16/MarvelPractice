@@ -1,0 +1,118 @@
+@import url('http://fonts.cdnfonts.com/css/supersonic-rocketship');
+
+header {
+    height: 60px;
+    background-color: transparent;
+}
+
+body {
+    background-image: url(./img/textura.jpg);
+    background-size: 20%;
+    margin: 2px;
+}
+
+.inicio {
+    position: absolute;
+    padding-left:40px; 
+    height: 100px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+.tarjetas {
+    color:white;
+    font-size: medium;
+    font-family: 'JetBrains Mono', monospace;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+}
+
+.logo-gigante {
+    max-width: 100%;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+.imagenes {
+    height: 280px;
+    width: 95%;
+    background-color: #D3CEDF;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border: 2px solid #D3CEDF;
+    content: normal;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#imagen1 {
+    padding: 30px;
+}
+
+#imagen2 {
+    padding: 30px;
+}
+
+#imagen3 {
+    padding: 30px;
+}
+
+.texto {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.imagen-final {
+    padding: 25px;
+}
+
+.final {
+    align-items: center;
+    padding: 25px;
+}
+
+.descripcion {
+    color:white; 
+    padding-left: 0px;
+    font-family: 'Supersonic Rocketship', sans-serif;
+    font-size: larger;
+}
+
+.texto-final {
+    color:white;
+    text-align: justify;
+    padding-left: 0px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: small;
+}
+
+#boton {
+    padding: 0px;
+    width: 100px;
+    height: 50px;
+    border-radius: 2px;
+    background: red;
+    border: 2px solid black;
+    color: white;
+}
+
+.follow-us {
+    height: 130px;
+    background-color: black;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: small;
+    text-align: center;
+}
